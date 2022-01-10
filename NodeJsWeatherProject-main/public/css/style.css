@@ -1,0 +1,179 @@
+*{
+    margin : 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;  
+    width: 100vw;
+    background-image: linear-gradient(rgb(2, 2, 2),rgb(106, 92, 165));
+}
+.Heading{
+    background-image: linear-gradient(blue,rgb(0, 0, 0));
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.874);
+    font-style: italic;
+    font-size: 1.1vw;
+}
+.Nav{
+    background-color: indigo;
+    
+}
+.NavText{
+    text-decoration-line: none;
+    color: white;
+}
+.NavText:hover{
+    color: lawngreen;
+}
+.Box{
+    position: relative;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.199));
+    border: 2px solid black;
+    color: black;
+    top: 25vh;
+    width: 60vw;
+    height: 30vh;
+    border-radius: 15px;
+        
+}
+.BoxText{
+    position:relative;
+    top:13vh;
+    color:white;
+}
+
+.Footer{
+    position:relative;
+    background-image: linear-gradient(blue,black);
+    color: rgba(255, 255, 255, 0.874);
+    height: 10vh;
+    width: 100vw;
+    margin-top: auto;
+    
+}
+.FooterText{
+    position: relative;
+    text-align: center;
+    top:4vh;
+}
+
+
+.Input{
+    position: relative;
+    top: 10vh;
+    width: 90vw;
+    height: 6vh;
+    color:red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.534),rgb(0, 0, 0));
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    border-radius: 30px;
+
+}
+
+.InputHeading{
+    position:relative;
+    background-image: linear-gradient(rgba(0, 115, 255, 0.329),rgb(0, 25, 78));
+    color: white;
+    height: 6vh;
+    border-radius: 10px;
+    line-height: 6vh;
+    
+}
+
+
+.InputHeading4{
+    position:relative;
+    background-image: linear-gradient(rgba(0, 115, 255, 0.329),rgb(0, 25, 78));
+    color: white;
+    height: 6vh;
+    border-radius: 10px;
+    line-height: 6vh;
+    
+}
+
+
+.InputHeading2{
+    position:relative;
+    color: rgb(255, 1, 1);
+    text-align:left;
+    
+    float: right;
+}
+.InputHeading3{
+    position:relative;
+    background-image: linear-gradient(rgba(0, 115, 255, 0.329),rgb(0, 25, 78));
+    color: white;
+    height: 6vh;
+    
+    line-height: 6vh;
+    text-align:left;
+    height: 10vh;
+    font-size: 6vh;
+    text-align: center;
+    line-height: 9vh;
+}
+.InputButton{
+    position:relative;
+    background-image: linear-gradient(rgba(0, 115, 255, 0.329),rgb(0, 25, 78));
+    color: white;
+    height: 6vh;
+    width: 9vh;
+    top: 10vh;
+    color: white;
+    font-style: italic;
+    border-radius: 30px;
+    animation-name: BtnAnime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: reverse;
+    
+    
+   
+}
+@keyframes BtnAnime {
+    0%{background-image: linear-gradient(rgba(0, 115, 255, 0.623),rgb(0, 25, 78)); }
+
+    100%{background-image: linear-gradient(rgb(6, 49, 100),rgb(0, 25, 78)); }
+}
+.InputButton:hover{
+    animation-play-state: paused;
+    background-color: chartreuse;
+    border-radius: 0%;
+    color: chartreuse;
+    
+}
+#Time{
+    position:relative;
+    color: white;
+    text-align: center;
+    
+}
+#Country{
+    position:relative;
+    float:right;
+    color:red;
+    font-size: 4vh;
+}
+#City{
+    position:relative;
+    float:left;
+    font-size: 4vh;
+}
+
+@media all and (max-width:773px){
+
+    .Heading{
+        background-image: linear-gradient(blue,rgb(0, 0, 0));
+        width: 100vw;
+        color: rgba(255, 255, 255, 0.874);
+        font-style: italic;
+        font-size: 3vw;
+    }
+    
+  }  
+

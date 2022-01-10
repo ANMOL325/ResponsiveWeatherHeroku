@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+    <center class="Heading"><h1>Welcome To Weather WebPage</h1></center>
+
+   {{>navbar}}
+     
+     <center><input class="Input" placeholder="Enter The City Name"><button class="InputButton">Search</button></input></center>
+     <center>
+        <div class="Box">
+           <div class="InputHeading"><span id="Time">Time</span></div>
+           <div class="InputHeading4"><span id="City">City</span><span id="Country">Country</span></div>
+
+          <div class="InputHeading3"><span id="TempData">None</span><sup>o</sup><span>C</span></div>
+        </div>
+    </center>
+   
+   {{>footer}}
+   <script src="js/main.js"></script>
+</body>
+</html>
